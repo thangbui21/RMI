@@ -16,7 +16,7 @@ import java.io.FileReader;
 public class ReadFile {
 
     public static void main(String[] args) throws Exception {
-        File file = new File("C:\\Users\\haimr\\Documents\\NetBeansProjects\\RMI\\src\\rmi\\Student.txt");
+        File file = new File("src\\rmi\\Student.txt");
 
         BufferedReader br = new BufferedReader(new FileReader(file));
 
